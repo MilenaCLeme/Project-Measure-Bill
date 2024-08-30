@@ -2,7 +2,7 @@ import express from "express";
 import { router } from "./routers/route";
 import cors from "cors";
 
-export class App{
+export class App {
   public server: express.Application;
 
   constructor(){
@@ -13,7 +13,7 @@ export class App{
 
   private middleware(){
     this.server.use(cors())
-    this.server.use(express.json());
+    this.server.use(express.json({ limit: '10mb' }));
   }
 
   private router(){
