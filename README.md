@@ -56,11 +56,11 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
 ## Rodando o Projeto Localmente
 
-    Siga as instruções acima para iniciar os serviços com Docker. Certifique-se de ter o arquivo .env configurado corretamente antes de executar docker-compose up.
+   Siga as instruções acima para iniciar os serviços com Docker. Certifique-se de ter o arquivo .env configurado corretamente antes de executar docker-compose up.
 
 ## Funcionalidades
 
-    O serviço é responsável por:
+   O serviço é responsável por:
 
 - Gerenciar a leitura individualizada de consumo de água e gás.
 - Utilizar a API do Google Gemini para extrair medições a partir de imagens de medidores.
