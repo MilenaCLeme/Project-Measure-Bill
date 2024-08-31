@@ -67,6 +67,12 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
 `Nota`: O modelo Gemini Pro Vision está descontinuado, o que tem impactado a eficácia do sistema. Devido a essa descontinuidade, o sistema está em baixa e o projeto ainda não está totalmente correto.
 
+## Testes
+
+O projeto inclui alguns testes unitários. Para executá-los, use o comando:
+```
+npx jest
+```
 
 ## Status do Projeto
 
